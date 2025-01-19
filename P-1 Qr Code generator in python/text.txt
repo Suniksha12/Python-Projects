@@ -1,0 +1,14 @@
+The purpose of this QR code generation is to Like u can generate your own QR code for instagram, for facebook , for youtube .
+
+Interesting!! RIGHT
+So lets get started...
+
+Let me tell you there are 2 process one is a normal process in which QR code generates , in second process the width of the QR,
+border of the QR , version of the QR , colour all these properties can be changed.
+
+For this we need to Install few modules like 
+Step 1 : open command line and install using the command pip install qrcode
+
+Once it is successfully installed then open PYcharm or any code editor i m using vscode.
+
+The code is given in te=he next file any extra notes or comments will be provided in the code file next.
