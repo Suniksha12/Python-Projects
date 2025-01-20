@@ -1,0 +1,8 @@
+Today we are going to talk about email validation using python 
+
+Function used is String 
+
+Now we should check whether the email is right or not for which we need that it should contain @ and single time only ,
+No upper case it should use only _ or . for special characters and no other.
+
+For another Important imformation it will be provided inside the code using comments.
