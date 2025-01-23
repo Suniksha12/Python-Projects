@@ -28,6 +28,8 @@ if(len(email)>=6):#1
                         d=1
                 if k==1 or j==1 or d==1:
                     print("WRONG EMAIL 5");
+                else:
+                    print("RIGHT EMAIl");
             else:
                 print("WRONG EMAIL 4");
         else:
