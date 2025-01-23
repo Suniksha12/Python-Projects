@@ -4,13 +4,13 @@ email = input("Enter your Email : ") #g@g.in i have used 6 characters in this gm
 
 #i got the string as an input 
 #Conditions
-k=0,j=0,d=0
-if(len(email)>=6):
+k,j,d=0,0,0
+if(len(email)>=6):#1
     #pass
-    if(email[0].isalpha()):
+    if(email[0].isalpha()):#2
         # pass
         #membership operator
-        if("@" in email) and (email.count("@")==1):
+        if("@" in email) and (email.count("@")==1): #3
             #pass
             if(email[-4]==".") ^ (email[-3]=="."):
                 #pass
