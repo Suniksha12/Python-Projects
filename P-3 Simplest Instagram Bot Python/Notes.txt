@@ -2,3 +2,5 @@ Building an Instagram Automation using Python
 
 We need to install the libraries like go to your command prompt and install
 pip install instabot
+
+Go to the instagram.py
