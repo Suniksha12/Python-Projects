@@ -18,4 +18,21 @@ cl.login("nooob_businessman98", "sahimkhan123")
 # cl.user_follow(user_id)
 
 #Now i need to upalod photo onto the id
+"""Install the library pip install instagrapi"""
+from instagrapi import Client
 
+# Initialize the client
+# cl = Client()
+
+# # Login to Instagram
+# username = "your_username"
+# password = "your_password"
+# cl.login(username, password)
+
+# Path to the photo and caption
+photo_path = "WHOOSH.png"  # Replace with the path to your photo
+caption = "This is a test upload from a bot! 🚀 #PythonBot"
+
+# Upload the photo
+media = cl.photo_upload(photo_path, caption)
+print(f"Photo uploaded successfully: {media.dict()}")
