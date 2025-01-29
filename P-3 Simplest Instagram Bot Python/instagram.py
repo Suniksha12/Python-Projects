@@ -55,4 +55,19 @@ cl.login("nooob_businessman98", "sahimkhan123")
 # except Exception as e:
 #     print("Error:", e)
 
+#followers information list
+# Get user ID from username
+user_id = cl.user_id_from_username("nooob_businessman98")
+
+# Fetch followers (returns a dictionary {user_id: timestamp})
+followers_dict = cl.user_followers(user_id)
+
+# Extract user IDs from dictionary
+followers_list = list(followers_dict.keys())
+
+# Print follower details
+for follower_id in followers_list:
+    user_info = cl.user_info(follower_id)
+    print(f"Username: {user_info.username}, Full Name: {user_info.full_name}")
+
 
