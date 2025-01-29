@@ -6,9 +6,9 @@
     . 2,3 index
  """
 
-import re
+import re # regular expression 
 
-email_condition = "^[a-z]+[\._]?[a-z 0-9]+[@]\w+[.]\w{2,3}$"
+email_condition = r"^[a-z]+[._]?[a-z0-9]+@[\w]+.[a-z]{2,3}$" #.com or .in
 
 user_email = input(' Enter your Email : ')
 

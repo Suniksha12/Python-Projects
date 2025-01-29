@@ -1,10 +1,10 @@
 #create a python file with extension .py
 
-email = input("Enter your Email : ") #g@g.in i have used 6 characters in this gmail
+email = input("Enter your Email : ") #g@g.in i have used 6 characters in this gmail g@g.com
 
 #i got the string as an input 
 #Conditions
-k,j,d=0,0,0
+k,j,d=0,0,0 # k : if there are space in it or not , J : upperacse letters, d : invalid characters 
 if(len(email)>=6):#1
     #pass
     if(email[0].isalpha()):#2
