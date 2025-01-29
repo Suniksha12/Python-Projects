@@ -57,17 +57,32 @@ cl.login("nooob_businessman98", "sahimkhan123")
 
 #followers information list
 # Get user ID from username
+# user_id = cl.user_id_from_username("nooob_businessman98")
+
+# # Fetch followers (returns a dictionary {user_id: timestamp})
+# followers_dict = cl.user_followers(user_id)
+
+# # Extract user IDs from dictionary
+# followers_list = list(followers_dict.keys())
+
+# # Print follower details
+# for follower_id in followers_list:
+#     user_info = cl.user_info(follower_id)
+#     print(f"Username: {user_info.username}, Full Name: {user_info.full_name}")
+
+#getting the following list
+# Get user ID from username
 user_id = cl.user_id_from_username("nooob_businessman98")
 
-# Fetch followers (returns a dictionary {user_id: timestamp})
-followers_dict = cl.user_followers(user_id)
+# Fetch following list (returns a dictionary {user_id: user_info})
+following_dict = cl.user_following(user_id)
 
-# Extract user IDs from dictionary
-followers_list = list(followers_dict.keys())
+# Extract user IDs
+following_list = list(following_dict.keys())
 
-# Print follower details
-for follower_id in followers_list:
-    user_info = cl.user_info(follower_id)
+# Print following details
+for user_id in following_list:
+    user_info = cl.user_info(user_id)
     print(f"Username: {user_info.username}, Full Name: {user_info.full_name}")
 
 
