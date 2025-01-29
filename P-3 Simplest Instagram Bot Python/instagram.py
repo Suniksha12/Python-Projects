@@ -32,6 +32,27 @@ cl.login("nooob_businessman98", "sahimkhan123")
 # cl.user_unfollow(user_id)
 # print(f"Successfully unfollowed the user with ID: {user_id}")
 
+#how to send message to multiple person
+# Send message to multiple users
+# import time 
+# import random
 
+# cl.delay_range=[3,7]
+# usernames = ["businessometrix", "ishowspeed"]  # Replace with actual usernames
+# try:
+#     # Get User IDs
+#     user_ids = [cl.user_info_by_username(username).pk for username in usernames]
+
+#     # Message to send
+#     message = "Hello! How u doin??"
+
+#     # Send messages
+#     for user_id in user_ids:
+#         cl.direct_send(text=message, user_ids=[user_id])
+#         print(f"Message sent successfully to {user_id}")
+#         time.sleep(random.randint(5, 10))  # Random delay to mimic human behavior
+
+# except Exception as e:
+#     print("Error:", e)
 
 
