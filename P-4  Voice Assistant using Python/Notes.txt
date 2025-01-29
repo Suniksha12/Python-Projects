@@ -1,3 +1,8 @@
 How to make a Voice Assitant in Python
 
 In the .py file you need to install some modules.
+
+Firstly we will give command in voice and that should be converted in text format.
+For this we will need a speech recognizer, if we want to return out something then  text-to-speech module is used 
+For this module we can use Syntax - import pyttsx3
+For command line use this - pip install pyttsx3 (this is offline and supports multiple voices best for general offline use.)
