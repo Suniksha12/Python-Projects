@@ -6,6 +6,10 @@ Firstly we will give command in voice and that should be converted in text forma
 For this we will need a speech recognizer, if we want to return out something then  text-to-speech module is used 
 For this module we can use Syntax - import pyttsx3
 For command line use this - pip install pyttsx3 (this is offline and supports multiple voices best for general offline use.)
+for  speech recognizer we use command line and type - pip install SpeechRecognition
+if this does'nt work try upgrading your pip python -m pip install --upgrade pip
+and then try with - python -m pip install SpeechRecognition
+Also i have imported PyJokes so  install that in your command prompt as well with the line - pip install pyjokes
 
 Additional Modules(optional) - web browser , pyjokes, mail(SMTP), timening(date and time module)
 
