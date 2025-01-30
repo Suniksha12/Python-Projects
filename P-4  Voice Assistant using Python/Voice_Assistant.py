@@ -73,7 +73,15 @@ if __name__ == '__main__':
     elif 'time now' in data1:
         time = datetime.datetime.now().strftime("%I%M%p")
         speechtx(time)
-    
+    elif 'play song' in data1:
+        print("Opening YouTube...")  # Debug message
+        webbrowser.open_new("https://www.youtube.com/watch?v=uxy254BGsxM&list=RDuxy254BGsxM&start_radio=1")
+    elif 'google' in data1:
+        webbrowser.open_new("https://www.google.com/")
+    elif "joke" in data1:
+        joke_1 = pyjokes.get_joke(language="en",category="neutral")
+        print(joke_1)
+        speechtx(joke_1)
     
 
     # else:
