@@ -17,6 +17,7 @@ def sptext():                             #listening
             print("Recognizing...")
             data = recognizer.recognize_google(audio)
             print(data)
+            return data
         except sr.UnknownValueError:
             print(" Not Understand ")
 
@@ -28,10 +29,18 @@ def speechtx(x):
     #by default we have two voices in the system male and female u can used either by installing
     #We r going to set properties
     voices = engine.getProperty('voices')
-    engine.setProperty('voice',voices[1].id) #for 0 we get male voice and 1 we get female voice
+    engine.setProperty('voice',voices[0].id) #for 0 we get male voice and 1 we get female voice
     rate = engine.getProperty('rate')
     engine.setProperty('rate', 130) #Set the speed according to you after 130 the voice gets slow down
     engine.say(x)
     engine.runAndWait()
-speechtx("hello welcome to Whoosh-Tech")
+
+# Calling the function
+# speechtx("hello welcome to Whoosh-Tech")
+if __name__ == '__main__':
+    
+    if sptext().lower() == "hey Jarvis":
+        pass
+    else:
+        print("Thanks")
 
