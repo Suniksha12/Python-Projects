@@ -14,3 +14,8 @@ Also i have imported PyJokes so  install that in your command prompt as well wit
 Additional Modules(optional) - web browser , pyjokes, mail(SMTP), timening(date and time module)
 
 Important modules - speech recognizer and Pyttsx (text to speech converter.)
+
+Note - You can also get some error like some modules are missing like audio and all so make sure you install it accordingly do some google search.
+for audio we use some installation of dependencies like -
+pip install pipwin
+pip install pyaudio
