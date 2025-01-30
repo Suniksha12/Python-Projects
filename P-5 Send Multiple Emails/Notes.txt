@@ -4,3 +4,5 @@ It can furthur be categorized in we can send email to one person or we can slo s
 
 For sending an email to one person we can use gmail but for sending multiple person it can cause difficulties for this we will work on project.
 
+we need to import modules in this for this we use SMTP library for it we use syntax as import smtplib,
+we don't need to install it in command line cause its already Built-in.
