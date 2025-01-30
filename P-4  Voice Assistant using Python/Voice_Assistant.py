@@ -21,4 +21,17 @@ def sptext():                             #listening
             print(" Not Understand ")
 
 #calling the function
-sptext()
+#sptext()
+
+def speechtx(x):
+    engine = pyttsx3.init()
+    #by default we have two voices in the system male and female u can used either by installing
+    #We r going to set properties
+    voices = engine.getProperty('voices')
+    engine.setProperty('voice',voices[1].id) #for 0 we get male voice and 1 we get female voice
+    rate = engine.getProperty('rate')
+    engine.setProperty('rate', 130) #Set the speed according to you after 130 the voice gets slow down
+    engine.say(x)
+    engine.runAndWait()
+speechtx("hello welcome to Whoosh-Tech")
+
