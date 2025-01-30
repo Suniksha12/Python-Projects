@@ -4,6 +4,7 @@ import speech_recognition as sr
 import webbrowser
 import datetime
 import pyjokes
+import os
 
 
 def sptext():                             #listening
@@ -82,7 +83,12 @@ if __name__ == '__main__':
         joke_1 = pyjokes.get_joke(language="en",category="neutral")
         print(joke_1)
         speechtx(joke_1)
-    
+    elif "open" in data1:
+        add = r"C:\Users\sunik\OneDrive\Desktop\Python Projects"
+        listfiles = os.listdir(add)
+        print(listfiles)
+        os.startfile(os.path.join(add,listfiles[2]))
+
 
     # else:
     #     print("Thanks")
