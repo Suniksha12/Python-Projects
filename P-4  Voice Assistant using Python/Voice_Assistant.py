@@ -58,11 +58,24 @@ def speechtx(x):
 # speechtx("hello welcome to Whoosh-Tech")
 if __name__ == '__main__':
     print("Testing speech recognition...")
-    recognized_text = sptext()
-    if recognized_text.lower() == "hello":
+    # recognized_text = sptext()
+    # if recognized_text.lower() == "hello":
         # pass
-        print("Triggering speech...")
-        speechtx("Hello Sir, How can I help you today?")
-    else:
-        print("Thanks")
+        # print("Triggering speech...")
+        # speechtx("Hello Sir, How can I help you today?")
+    data1 = sptext().lower()
+    if "your name" in data1:
+        name = "my name is jarvis"
+        speechtx(name)
+    elif "old are you" in data1:
+        age = "i m 200 years old"
+        speechtx(age)
+    elif 'time now' in data1:
+        time = datetime.datetime.now().strftime("%I%M%p")
+        speechtx(time)
+    
+    
+
+    # else:
+    #     print("Thanks")
 
