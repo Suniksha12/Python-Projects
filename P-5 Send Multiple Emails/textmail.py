@@ -22,7 +22,7 @@ from email.mime.text import MIMEText
 
 # Email credentials
 sender_email = "suni71561@gmail.com"
-receiver_email = "sunikshabenpatel@gmail.com"
+receiver_email = "sahimkhan637@gmail.com"
 app_password = "hsen wqtr qnwl imdx"  # Use App Password instead of your Gmail password
 
 # Email content
