@@ -6,3 +6,17 @@ For sending an email to one person we can use gmail but for sending multiple per
 
 we need to import modules in this for this we use SMTP library for it we use syntax as import smtplib,
 we don't need to install it in command line cause its already Built-in.
+
+You can get an SMTPAuthenticationError (535, Bad Credentials) because Gmail no longer allows direct login with your email password for 
+less secure apps. Instead, you need to use an App Password or enable "Less Secure Apps" in your Google account settings.
+
+Option 1: Use an App Password (Recommended)
+Enable 2-Step Verification in your Google Account:
+
+Go to Google Account Security
+Under "Signing in to Google", turn on 2-Step Verification.
+Generate an App Password:
+
+Go to App Passwords
+Select "Mail" → "Windows Computer" → Click Generate
+Copy the 16-character App Password.
