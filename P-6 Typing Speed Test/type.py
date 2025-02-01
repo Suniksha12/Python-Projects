@@ -38,3 +38,7 @@ testinput = input(" Enter : ")
    3) Function Defining"""
 time_2 = time()
 
+
+#calling the functions
+print('Speed : ' ,speed_time(time_1, time_2, testinput),"w/sec")
+print("Error : ",mistake(test1,testinput))
