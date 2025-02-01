@@ -17,28 +17,39 @@ def speed_time(time_start, time_end, userinput):
     speed = len(userinput)/time_R
     return round(speed)
 
-test = ["A paragraph is a self contained unit of discourse in writing dealing with a particular point or idea.",
-        "My name is Suniksha Patel","Welcome to Whoosh-tech You tube channel"]
-
-test1 = r.choice(test)
-
-print("***** tying speed *****")
-print(test1)
-
-#Now we will take the user input
-#Now we will take 2 line breaks
-print()
-print()
-time_1 = time()
-testinput = input(" Enter : ")
-
-"""Now we need Following Thing:
-   1) Speed Calculation
-   2) Error Checking
-   3) Function Defining"""
-time_2 = time()
-
-
-#calling the functions
-print('Speed : ' ,speed_time(time_1, time_2, testinput),"w/sec")
-print("Error : ",mistake(test1,testinput))
+if __name__ == '__main__':
+    #testting of while loop
+    while True:
+        ck = input("   Ready to test : yes / no : ")
+        if(ck == "yes"):
+            test = ["A paragraph is a self contained unit of discourse in writing dealing with a particular point or idea.",
+                    "My name is Suniksha Patel","Welcome to Whoosh-tech You tube channel"]
+            
+            test1 = r.choice(test)
+            
+            print("***** tying speed *****")
+            print(test1)
+            
+            #Now we will take the user input
+            #Now we will take 2 line breaks
+            print()
+            print()
+            time_1 = time()
+            testinput = input(" Enter : ")
+            
+            """Now we need Following Thing:
+               1) Speed Calculation
+               2) Error Checking
+               3) Function Defining"""
+            time_2 = time()
+            
+            #calling the functions
+            print('Speed : ' ,speed_time(time_1, time_2, testinput),"w/sec")
+            print("Error : ",mistake(test1,testinput))
+    
+        elif ck == "no":
+            print(" thank you ")
+            break
+    
+        else:
+            print(" wrong input ")
