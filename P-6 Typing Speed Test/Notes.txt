@@ -1,0 +1,6 @@
+We are going to calculate the typing speed.
+
+So we will be calculating the Typing speed in word per minute.
+
+For which we will import time module
+
