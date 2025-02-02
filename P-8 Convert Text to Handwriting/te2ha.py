@@ -9,6 +9,7 @@
 #    if not then by default it will make a .png file in your dir
 #    3. Color"""
 # pw.text_to_handwriting(txt,"te2ha.png",[0,0,138])
+# pw.text_to_handwriting(txt,"te2ha.png",[255,0,0]) #for red colour text
 # print(" END ")
 
 #Using an alternative library
