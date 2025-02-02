@@ -1,0 +1,5 @@
+In This project we will be making Google Translator with the help of GUI.
+
+For this we need a Tinker module and google Translator module.
+
+Open command line and install 
