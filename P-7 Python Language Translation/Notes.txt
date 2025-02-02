@@ -2,4 +2,7 @@ In This project we will be making Google Translator with the help of GUI.
 
 For this we need a Tinker module and google Translator module.
 
-Open command line and install 
+Open command line and install pip install googletrans==4.0.0-rc1, while the tKinter module is built in python so we do not need 
+to install it seperately.
+
+
