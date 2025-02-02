@@ -11,9 +11,16 @@ def change(text="type",src="English",dest="Hindi"):
     dest1 = dest
     trans=Translator()
     trans1 = trans.translate(text,src=src1,dest=dest1)
-    return trans1
+    return trans1.text
 
 def data():
+    s = comb1_sor.get()
+    d = comb1_dest.get()
+    message = Sor_txt.get(1.0, END).strip()  # Get input text & remove extra spaces
+    textget = change(text=message, src=s, dest=d)  # Correctly get translation
+    dest_txt.delete(1.0, END)
+    dest_txt.insert(END, textget)  # Insert the translated text
+
 root = Tk()
 root.title("Translator")
 root.geometry("500x700")
@@ -39,7 +46,7 @@ comb1_sor.place(x=10,y=300,height=40,width=150)
 comb1_sor.set("English")
 
 #we will make the button for language change
-button_change = Button(frame,text="Translate",relief=RAISED)
+button_change = Button(frame,text="Translate",relief=RAISED,command=data)
 button_change.place(x=170,y=300,height=40,width=150)
 
 #destination combo box
