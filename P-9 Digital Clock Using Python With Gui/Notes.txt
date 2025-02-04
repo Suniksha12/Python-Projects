@@ -1,0 +1,6 @@
+In this project we will make a digital clock with GUI.
+
+we will have hour min sec , am/pm , then day date , month and year,
+This will be a running clock.
+
+For this we will need some modules like tkinter for graphics.
