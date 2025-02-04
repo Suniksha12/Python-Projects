@@ -58,11 +58,35 @@ lab_am_txt.place(x=780,y=190,height=40,width=100)
 #Calling the label function date
 lab_date = Label(clock,text="00",font=('Time New Roman',60,"bold"),
                bg='red',fg="white")
-lab_date.place(x=120,y=50,height=110,width=100)
+lab_date.place(x=120,y=270,height=110,width=100)
 
 lab_date_txt = Label(clock,text="Date",font=('Time New Roman',20,"bold"),
                bg='red',fg="white")
-lab_date_txt.place(x=120,y=190,height=40,width=100)
+lab_date_txt.place(x=120,y=410,height=40,width=100)
+
+lab_mo = Label(clock,text="00",font=('Time New Roman',60,"bold"),
+               bg='red',fg="white")
+lab_mo.place(x=340,y=270,height=110,width=100)
+
+lab_mo_txt = Label(clock,text="Month",font=('Time New Roman',20,"bold"),
+               bg='red',fg="white")
+lab_mo_txt.place(x=340,y=410,height=40,width=100)
+
+lab_year = Label(clock,text="00",font=('Time New Roman',60,"bold"),
+               bg='red',fg="white")
+lab_year.place(x=560,y=270,height=110,width=100)
+
+lab_year_txt = Label(clock,text="Year",font=('Time New Roman',20,"bold"),
+               bg='red',fg="white")
+lab_year_txt.place(x=560,y=410,height=40,width=100)
+
+lab_day = Label(clock,text="00",font=('Time New Roman',50,"bold"),
+               bg='red',fg="white")
+lab_day.place(x=780,y=270,height=110,width=100)
+
+lab_day_txt = Label(clock,text="Day",font=('Time New Roman',20,"bold"),
+               bg='red',fg="white")
+lab_day_txt.place(x=780,y=410,height=40,width=100)
 
 date_time()
 
