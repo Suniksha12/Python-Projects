@@ -3,6 +3,7 @@ import datetime
 
 #print(datetime.datetime.now())
 
+#defining the function
 def date_time():
     time = datetime.datetime.now()
     hr = time.strftime('%I')
