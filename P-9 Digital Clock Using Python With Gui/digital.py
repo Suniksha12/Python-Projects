@@ -23,8 +23,10 @@ def date_time():
     lab_mo.config(text=month)
     lab_year.config(text=year)
     lab_day.config(text=day)
+    
     lab_hr.after(200,date_time)
 
+#calling the function
 clock = Tk()
 
 #change the title
