@@ -1,0 +1,4 @@
+In this project we will be How to automatically send messages and create groups in skype.
+
+For this we will be installing a module,
+Syntax : pip install skpy
