@@ -1,0 +1,4 @@
+In this project we will be building Internet speed test using GUI.
+
+The modules needed for this is Tkinter, speedtest, Tkinter comes built in with Python , 
+only speedtest install syntax: pip install speedtest-cli
