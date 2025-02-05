@@ -1,6 +1,13 @@
 from skpy import Skype
+import os.path
 
 slogin = Skype("sunikshabenpatel@gmail.com","sunikSha17@")
+
+#we will use file for the system and try to send it
+contact = slogin.contacts["live:.cid.9bb5de17a53fab21"]
+# we access the file and copy paste the file path also we will read it as binary
+with open("C:/Users/sunik/OneDrive/Desktop/Python Projects/P-10 Skype Automation Python Project/download.png","rb") as f:
+    contact.chat.sendFile(f,"download.png",image=True)
 
 # Replace these with valid contact IDs
 # contact_ids = ["live:.cid.9bb5de17a53fab21", "live:.cid.2405d0ce58c715aa"]
