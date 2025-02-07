@@ -7,3 +7,16 @@ we can block the website.
 
 If we are working will administrative file then whichever software we are using should get an administrative permission,
 without that it wont work.
+
+Step 1 : open notepad and then click run with administrator
+step 2 : click on file and select open , traverse to C drive 
+Step 3 : traverse to  widows folder open it , the system 32 file open it , open driver file, 
+         then open etc file.
+Now no such file will be seen cause we have opened a text document file ,
+On the Right hand side of the file name select all files and you will get to see many files.
+
+Step 5 : Then search for Host file and open it. Inside this below we can see localhost file with that address  we can block any website.
+Step 6 : In the same File write the id of your HostFile and thenwrite the website link remove the http:// then try to open it 
+         you will find that your website has been blocked and its blocked only for your system.
+
+With this you can block the website.
