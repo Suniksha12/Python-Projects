@@ -1,0 +1,9 @@
+In this Project we are going to built a website Blocker, like in any system how we can block certain websites in certain time period.
+
+Before doing it in python we can also do manually.
+
+for doing manually then we have some host file in our system we need to do some changes there and then 
+we can block the website.
+
+If we are working will administrative file then whichever software we are using should get an administrative permission,
+without that it wont work.
