@@ -6,3 +6,8 @@ site_block = ["github.com/Suniksha12","www.linkedin.com/feed/"]
 host_path = "C:/Windows/System32/drivers/etc/hosts"
 redirect = "127.0.0.1"
 
+while True:
+    if datetime.datetime.now()<end_time:
+        pass
+    else:
+        pass
