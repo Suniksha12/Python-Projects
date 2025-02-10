@@ -1,0 +1,8 @@
+In this project we are going to build a restart and poweroff shutdown using Python project in we will
+make buttons for this and then use the operations to use our operating system.
+
+The library which we are going to use is Tkinter and os module.
+
+use the syntax to install tkinter, open command prompt and write the syntax,
+syntax- pip install tk
+No installation is required for os as it is alredy built-in in python.
