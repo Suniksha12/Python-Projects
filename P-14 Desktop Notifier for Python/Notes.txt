@@ -1,0 +1,12 @@
+In this project we will get notification for our system using python.
+
+There can be types of notification as like it can be online and offline , 
+so basically online notifications when we use the internet  and offline notification
+are those which diplays the text that we want.
+
+so the modules that needs to be installed are, first open the command prompt 
+from the same directory where you have saved your python program file 
+
+syntax used is - pip install plyer
+
+, we also need time module but it is already built-in in python.
