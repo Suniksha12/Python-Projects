@@ -14,3 +14,6 @@ if __name__ == '__main__':
 #for stopping the notification press Ctrl + c 
 #also if you have your image in .png or .jpg or jpeg then try to convert it 
 #using an online converter convert it into a .ico  i.e convert it into icon.
+
+#if we run the python file in background so simply write 
+# pythonw file.py (where file.py is the file name)
