@@ -1,0 +1,12 @@
+In this project we will work on converting .py file to .exe file, now if we
+want to share any python file to our friend we can share it in .exe file 
+for which we need a python file in our system otherwise it will not run.
+
+The process is like every friend doesn't need to setup python installation in thier 
+system they can use .exe file and make use of it.
+
+There are two methods with which we can convert .exe First is the direct method
+and second is by the adding the configuration with logo or multiple file attached.
+
+Now open the command prompt and install pyinstaller
+Syntax - pip install pyinstaller
