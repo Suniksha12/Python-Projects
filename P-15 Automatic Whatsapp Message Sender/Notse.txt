@@ -1,0 +1,9 @@
+In this project we can send Automatic messages in whatsapp using python code.
+
+For which we will use a module pywhatkit, open your command prompt in the
+same the directory where you have saved your file .
+
+Syntax - pip install pywhatkit
+
+so This is a page where you can get all the modules and you can install them
+in your system. link : https://pypi.org/
