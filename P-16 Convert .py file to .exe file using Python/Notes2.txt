@@ -1,0 +1,6 @@
+now for the second method craete a fresh folder and there you copy your
+.py code file insdie that you open command prompt and write the command
+ 
+Syntax: pip install auto-py-to-exe 
+
+This is the module name and it will get installed in your system

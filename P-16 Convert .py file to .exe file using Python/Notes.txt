@@ -10,3 +10,23 @@ and second is by the adding the configuration with logo or multiple file attache
 
 Now open the command prompt and install pyinstaller
 Syntax - pip install pyinstaller
+
+Now for Converting the file directly just open the command prompt in the same file, 
+also take any code for which has an extend=sion of .py now in the command prompt 
+write 
+
+Syntax : pyinstaller digital.py
+
+Just aftering writing that after some time your file will be converted by multiple folders will be created 
+for which you have to go to dist folder then click on the another folder 
+and then you will find your .exe file but there are multiple other files created 
+also when you click your .exe file you will see that automatically it is running without any
+command.
+
+Now if we want only single file of that .py file then open the command prompt 
+write the command 
+
+Syntax - pyinstaller --onefile filename.py
+
+then under your dist folder you will get your .exe file 
+and you can share it with your friends.
