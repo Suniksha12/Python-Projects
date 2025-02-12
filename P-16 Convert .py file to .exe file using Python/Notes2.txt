@@ -3,4 +3,18 @@ now for the second method craete a fresh folder and there you copy your
  
 Syntax: pip install auto-py-to-exe 
 
-This is the module name and it will get installed in your system
+This is the module name and it will get installed in your system.
+
+After successfull installation write the command again 
+
+Syntax: auto-py-to-exe (Enter)
+
+then a windown will open and which will aksk you certain things like 
+path file , choose one file cause we have only one file no such directory,
+choose window based(hide the console) cause the python file already has graphichs
+if no such graphics and the file is runnnig under the command prompt then choose
+console based.
+Add your icon or any other additional features and then simply click on 
+convert button whihc will convert your file.
+
+Again in the same folder you wil have to have your one file.
