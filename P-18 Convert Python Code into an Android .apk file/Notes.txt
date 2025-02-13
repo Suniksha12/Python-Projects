@@ -13,3 +13,6 @@ But for the python we only need kivy framework.
 for this we need a syntax open the command prompt in the same directory
 the write the syntax provided below :
 syntax: pip install kivy
+
+after which install kivymd
+Synatx : pip install kivymd
