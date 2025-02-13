@@ -9,9 +9,10 @@ of the user or of the website.
 
 In static websites the dependency depends on the developer.
 
-With the help of HTML and Css you build a fixed content.
+With the help of HTML and CSS you build a fixed content.
 
 the loading and browsing of static sites are faster than dynamic websites since 
 the static websites have nothing to do with the server and therefore, directly load 
 on the client's server.
+
 
