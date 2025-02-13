@@ -1,0 +1,17 @@
+There are peoples who have confusion like what is static and dynamic websites like we are 
+building something in wordpress with html css , or php or laravel then is that static or dynamic 
+
+Lets make it clear that  static websites are those whose content and images do not 
+change throughout the process.
+
+static websites does not reuiqre any kind of database to store any kind of information
+of the user or of the website.
+
+In static websites the dependency depends on the developer.
+
+With the help of HTML and Css you build a fixed content.
+
+the loading and browsing of static sites are faster than dynamic websites since 
+the static websites have nothing to do with the server and therefore, directly load 
+on the client's server.
+
