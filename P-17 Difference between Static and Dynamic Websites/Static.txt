@@ -15,4 +15,14 @@ the loading and browsing of static sites are faster than dynamic websites since
 the static websites have nothing to do with the server and therefore, directly load 
 on the client's server.
 
+Static is the design of the websites.
+
+lets take an example like if your are building a resume in the form of website
+then we will give Name, DOB , and the landing page which is always fixed and we cannot 
+change it .
+
+for static websites the languagues used are HTML , CSS , javaScript , bootstrap are the froentend 
+it can load in the server easily , now the realistic example is 10th result came now the 
+name and the number with DOb fathers name this will be fixed you cannot change if you do want to change 
+then you have to visit the office and ask them to change.
 
