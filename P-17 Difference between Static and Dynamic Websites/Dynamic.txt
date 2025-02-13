@@ -1,0 +1,15 @@
+So after the static websites we have dynamic websites:-
+
+so Dynamic websites offer unique content to visitors each time thery view the site.
+
+This display changes depending on a number of factors like viewers demographics, time of day,
+location, language settings and so on.
+
+Dynamic websites are those whose content or data and pages changes on regular basis.
+
+for example we have made a ecommerce products then lets suppose we have 4 products diaplayed
+now the 4 products are displayed in a single row now the single row will be fixed 
+but the inside content will be changed.
+
+According to the user changing the data is dynamic.
+
