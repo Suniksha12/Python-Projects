@@ -8,3 +8,7 @@ class Main_App(MDApp):
 if __name__ == '__main__':
     Main_App().run()
     
+#now open Google collab and create a new notebook 
+#simple search on your browser and select first collab notebook and create new notebook
+
+"""Then with the help of it we will create our app"""
