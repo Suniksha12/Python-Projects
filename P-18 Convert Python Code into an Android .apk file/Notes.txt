@@ -1,0 +1,11 @@
+In this project we will convert python file to Convert into APK file
+
+In python we  have Kivy framework inside it which is used for mobile development
+now that app can be run in windows , linux , mac but whenever when we want to 
+convert a python file into a .apk file then we should know that for which system 
+we are converting it like for IOS or ANDROID or LINUX.
+
+If we are building a app then for andriod we need java but if  we want to combine it then
+we need flutter as a language.
+
+But for the python we only need kivy framework.
