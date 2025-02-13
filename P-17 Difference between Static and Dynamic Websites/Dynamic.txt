@@ -13,3 +13,19 @@ but the inside content will be changed.
 
 According to the user changing the data is dynamic.
 
+whenever we make Dynamic website we have website which is shown or displayed to the user and the 
+next we have control panel which is handles by the client.
+
+Control panel is always given to the client and he/she can only make changes.
+
+with the help of control panel you can make user understand that that can update their data
+without any use of coding.
+
+wordpress is used for making complete dynamic website.
+
+For dynamic webiste we have PHP , Mysql , larvel , wordpress and we can connect to mysql database or 
+server. No its not necesaary to use the Php as backedn language you can also use Node.js or Java or .Net or 
+or Python with Django any one can be used as a backend language to generate backend.
+
+
+
