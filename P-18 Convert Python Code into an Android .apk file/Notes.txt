@@ -9,3 +9,7 @@ If we are building a app then for andriod we need java but if  we want to combin
 we need flutter as a language.
 
 But for the python we only need kivy framework.
+
+for this we need a syntax open the command prompt in the same directory
+the write the syntax provided below :
+syntax: pip install kivy
