@@ -1,0 +1,11 @@
+In this project we are going to build a Screen recorder for our project for which 
+we require certian modules.
+
+Like open the command prompot and write the few lines of code to install.
+Synatx : pip install opencv-python
+         pip install pywin32
+         pip install numpy
+         pip install pyautogui 
+
+Now this openCv is used to take the screen shots in MILLISECONDS and 
+by merging them all it give videos as output.
