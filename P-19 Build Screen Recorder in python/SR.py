@@ -39,3 +39,5 @@ while True:
 output.release()
 
 print("---END---")
+
+#remove the lines or spaces if you dont want that much time to be consumed and python must read each line as fast as possible and give you the video.
