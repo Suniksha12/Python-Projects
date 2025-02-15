@@ -10,7 +10,7 @@ height = GetSystemMetrics(1) #when we give 0 or 1 it captures the whole screen
 dim = (width,height)
 
 #now we need varible to tell the python in whivh format we want to make the video
-f = cv2.VideoWriter_fourcss(*"XVID") #for XVID it will give mp4 ectc format
+f = cv2.VideoWriter_fourcc(*"XVID") #for XVID it will give mp4 ectc format
 
 output = cv2.VideoWriter("SR.mp4",f,30.0,dim) #giving the location in standard 30.0 frames per second is capture in a frame
 
