@@ -13,3 +13,8 @@ there we will see run button to run the file.
 we can even import modules but there are predefined modules are avaible else 
 some modules are paid.
 
+we have numpy array so we can use it also we have matplotlib we can make use of it as well.
+
+go to quick install and just use matplotlib 
+
+now use the following program:
