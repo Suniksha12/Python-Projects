@@ -1,0 +1,7 @@
+In this project we wills see how to extract audio from a video file
+
+Video to MP3 file for this we need a module 
+
+for this open a command prompt and add the following line of code in it like
+Syntax : pip install moviepy
+
