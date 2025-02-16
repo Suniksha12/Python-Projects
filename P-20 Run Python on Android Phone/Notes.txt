@@ -1,0 +1,15 @@
+In this project we will see how to run a python file in android.
+
+Because Python file only runs inside a system where python is availabel
+so in this we will see how it can be done with the help of android.
+
+for this we will require a python file.
+
+for this we require a py3 in our android system now cretae a file with a file anme
+write a simple code of printing a line like print("hello") 
+
+there we will see run button to run the file.
+
+we can even import modules but there are predefined modules are avaible else 
+some modules are paid.
+
