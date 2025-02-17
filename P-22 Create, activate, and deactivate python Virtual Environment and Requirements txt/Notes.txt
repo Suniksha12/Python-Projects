@@ -1,0 +1,6 @@
+In this Project we will work on how we can work with 2 diffenrnt files of python in one system.
+
+Also we will se Virtual envirnonment and requiremnets.txt.
+
+Virtual envirnonment suppose we have a python then it makes a clone of it.
+
