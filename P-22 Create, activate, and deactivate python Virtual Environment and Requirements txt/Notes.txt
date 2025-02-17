@@ -4,3 +4,5 @@ Also we will se Virtual envirnonment and requiremnets.txt.
 
 Virtual envirnonment suppose we have a python then it makes a clone of it.
 
+so requirements.txt is the txt files which stores all the version of the python file.
+
