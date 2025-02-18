@@ -24,3 +24,8 @@ or simply run as adminstrator and write set as administrator policies"""
 
 
 #for makkiing the requirements.txt file then we have to use the pip freeze > requirement.txt
+
+#with the help of this we can install multiple libraries 
+#pip install -r.\requirement.txt
+
+#del function is used for deleting the file
