@@ -21,3 +21,6 @@ and if its showing error then try to deactivate the file
 write deavtivate or change the file path ./activate
 
 or simply run as adminstrator and write set as administrator policies"""
+
+
+#for makkiing the requirements.txt file then we have to use the pip freeze > requirement.txt
