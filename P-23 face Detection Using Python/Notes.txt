@@ -1,1 +1,10 @@
-In this project we will use google collab 
+In this project we will see how to build a face detection project in python.
+
+The most important library used here is Open cv for which 
+go to the google and search for open cv python and click on the first link 
+
+Open cv  is used for image and videos 
+
+just copy the open cv command and open your command prompt and paste it there
+the syntax used here is : pip install opencv-python
+
