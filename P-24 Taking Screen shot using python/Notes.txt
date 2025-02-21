@@ -1,0 +1,6 @@
+In this project we will see whihc modules are used to take the screenshot.
+
+Then open your command prompt in the same directory where your file is stored 
+and write the command.
+
+Synatx: pip install PyAutoGUI
