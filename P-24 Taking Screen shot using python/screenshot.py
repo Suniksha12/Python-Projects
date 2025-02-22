@@ -17,13 +17,21 @@
 import pyautogui
 from tkinter import *
 
+#building a function
+def take_ss():
+    ss = pyautogui.screenshot()
+    ss.save("test1.png")
+
 win = Tk()
 win.title("Win ScreenShot")
-win.geometry("400x300")
+win.geometry("700x400")
 win.config(bg="yellow")
 win.resizable(False, False)
 
-button = Button(win,text="Done", font=('Time New Roman',50,"bold"))
-button.place(x=100,y=100,height=100,width=200)
+entry = Entry(win, font=('Time New Roman',30))
+entry.place(x=20, height=70, width=660, y=50)
+
+button = Button(win,text="Done", font=('Time New Roman',50))
+button.place(x=250,y=140,height=100,width=200)
 
 win.mainloop()
