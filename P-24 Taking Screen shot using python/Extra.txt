@@ -1,0 +1,4 @@
+Now how to make your file a how to create a exe for creating a desktop application
+
+for this open command prompt and then write the follwoing command
+pyinstaller --onefile yourfilename
