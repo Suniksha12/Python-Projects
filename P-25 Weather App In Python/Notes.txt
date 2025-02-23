@@ -1,0 +1,3 @@
+In this Project we are going to build a weather App using python in GUI.
+
+we will be working with Tkinter install it using pip install
