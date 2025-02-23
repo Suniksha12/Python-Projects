@@ -34,19 +34,44 @@ w_label = Label(win,text="Weather Climate",
 
 w_label.place(x=25,y=260,height=50,width=210)
 
+#substitute label
+w_label1 = Label(win,text="",
+                   font=("Time New Roman",20))
+
+w_label1.place(x=250,y=260,height=50,width=210)
+
 wb_label = Label(win,text="Weather Description",
                    font=("Time New Roman",17))
 
 wb_label.place(x=25,y=330,height=50,width=210)
+
+#substitute label
+wb_label1 = Label(win,text="",
+                   font=("Time New Roman",17))
+
+wb_label1.place(x=250,y=330,height=50,width=210)
+
 
 temp_label = Label(win,text="Temperature",
                    font=("Time New Roman",20))
 
 temp_label.place(x=25,y=400,height=50,width=210)
 
+#substitute label
+temp_label1 = Label(win,text="",
+                   font=("Time New Roman",20))
+
+temp_label1.place(x=250,y=400,height=50,width=210)
+
 per_label = Label(win,text="Pressure",
                    font=("Time New Roman",20))
 
 per_label.place(x=25,y=470,height=50,width=210)
+
+#substitute label
+per_label1 = Label(win,text="",
+                   font=("Time New Roman",20))
+
+per_label1.place(x=250,y=470,height=50,width=210)
 
 win.mainloop()
