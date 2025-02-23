@@ -24,4 +24,11 @@ com = ttk.Combobox(win,text="Whoosh Weather App",values=list_name,
 
 com.place(x=25,y=120,height=50, width=450)
 
+#building a button
+done_button = Button(win,text="Done",
+                     font=("Time New Roman",20,"bold"))
+done_button.place(y=190,height=50,width=100,x=200)
+
+
+
 win.mainloop()
