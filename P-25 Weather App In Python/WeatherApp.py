@@ -10,7 +10,7 @@ def data_get():
     data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=c13caae56a50320d26f03c71890014d6").json()
     w_label1.config(text=data["weather"][0]["main"])
     wb_label1.config(text=data["weather"][0]["description"])
-    temp_label1.config(text=str(data["main"]["temp"]-273.15))
+    temp_label1.config(text=str(int(data["main"]["temp"]-273.15)))
     per_label1.config(text=data["main"]["pressure"])
 
 win = Tk()
@@ -83,7 +83,7 @@ per_label1.place(x=250,y=470,height=50,width=210)
 
 #building a button
 done_button = Button(win,text="Done",
-                     font=("Time New Roman",20,"bold"))
+                     font=("Time New Roman",20,"bold"),command=data_get)
 done_button.place(y=190,height=50,width=100,x=200)
 
 win.mainloop()
