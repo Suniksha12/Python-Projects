@@ -1,6 +1,10 @@
 from tkinter import *
 #now we ill use combo box
 from tkinter import ttk
+#we need data for which we will bring the api
+import requests
+
+
 
 win = Tk()
 win.title("Whoosh Tech")

@@ -3,4 +3,16 @@ In this Project we are going to build a weather App using python in GUI.
 we will be working with Tkinter install it using pip install
 
 Open your command prompt and write the follwoing command like 
- pip install tkintertable 
+ pip install tkintertable
+
+ Now how to get api from the server , for this we need api from a App
+
+ like open your chrome browser and search for openWeather.api
+
+ and then sign it go below and search for  current & forecast weather data collection in thiw you will find many API docs
+ but instead of that just click API docs and then on the right hand side you will find that
+ you can see some built in geocoding under whihch you have some data according to whihc you want to fetch like
+ built-in API request by city name or city Id or ZIP code in our code i jave used City name
+ then copy the line.
+
+In order to use Api in python we need a module name request
