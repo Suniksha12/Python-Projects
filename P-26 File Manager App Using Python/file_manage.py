@@ -22,4 +22,7 @@ for i in files:
         shutil.move(path+"\\"+i,path+"\\"+extension_1+"\\"+i)
     else :
         # print("False")
+        os.makedirs(folder_path)
+        shutil.move(path+"\\"+i,path+"\\"+extension_1+"\\"+i)
+
 #With the files names fetches we want to seperated the file name and the extension
