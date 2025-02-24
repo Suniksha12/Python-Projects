@@ -1,4 +1,6 @@
 import os
+#inside this shutil we have a move funstion for which they move the file from one location to another
+import shutil
 
 path = input("Enter your path : ")
 
@@ -16,7 +18,8 @@ for i in files:
     #with the  help of this extension we will make a folder
     folder_path = path+"\\"+extension_1
     if(os.path.exists(folder_path)):
-        print("True")
+        # print("True")
+        shutil.move(path+"\\"+i,path+"\\"+extension_1+"\\"+i)
     else :
-        print("False")
+        # print("False")
 #With the files names fetches we want to seperated the file name and the extension
