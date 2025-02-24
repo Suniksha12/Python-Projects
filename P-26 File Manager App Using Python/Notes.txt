@@ -1,0 +1,9 @@
+In this project we are going to build how to manage file suppose 
+we have a folder and there  are many files with lots of extensions like .exe or 
+or .py or .png or .mp4 or .csv etc  for this we want to make them a seperate folder of thier own and
+save it.
+
+For this management we need to make a .py file.
+
+for this we need module like operating system and with the help of extension we will be able to seperate it.
+
