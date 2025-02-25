@@ -1,0 +1,8 @@
+In this project we will see how we can convert a mp4 file into a gif.
+
+for which we will need a module named moviepy, now you need to install into your system for which just open the command prompt 
+in the same directory where you have saved your coding file and write the command.
+
+Synatx: pip install moviepy
+
+So this moviepy module is such a module with which you can cut the the video part and convert it into a gif and add text into a video file.
