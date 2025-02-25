@@ -1,0 +1,13 @@
+In this project we will look how we can change any image to its ASCII Art using Python.
+
+ASCII is like we have special characters like @ , # and so on with the help of these 
+we will generate and image.
+
+IN this we will require a module pywhatkit.
+
+For this just go into your directory and right click and open command prompt.
+and write the code.
+
+Syntax: pip install pywhatkit
+
+Take the image from your own i have taken my logo.
