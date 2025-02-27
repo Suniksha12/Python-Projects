@@ -1,0 +1,12 @@
+In this project we will be creating split screen video using python.
+
+Suppose we have a video and what if we merge 4 videos in a single video then it sounds interesting right 
+we can do it in python as well.
+
+With this we require a module name moviepy
+
+Open your command prompt and write the following command:
+Syntax : pip install moviepy
+
+Take four videos in the same directory where you have saved your python file.
+
