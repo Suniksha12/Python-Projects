@@ -7,10 +7,10 @@ next module is need to install the setup for which we will require syntax : pip 
 
 syntax : pip install numpy 
 
-next we require a small spftware in which we can edit the video.
+next we require a small software in which we can edit the video.
 
 For which we will require a software in ImageMagick so just open your chrome browser and serach for ImageMagick website 
 and go to the download session and downalod anf install it.
 
 In the installation process click on the adminstrator button and install it then click on next in 
-the adiitional task it should have selected a install legal utilities and then ckick on install 
+the aditional task it should have selected a install legal utilities and then ckick on install 
