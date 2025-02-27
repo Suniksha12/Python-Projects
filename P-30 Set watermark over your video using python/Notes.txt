@@ -1,0 +1,16 @@
+In this project we will be build how we can set a text over your video i.e water mark over your video usig python.
+
+In this project we require some modules like open your command prompt and install
+write the following syntax like: pip install moviepy
+
+next module is need to install the setup for which we will require syntax : pip install ez_setup
+
+syntax : pip install numpy 
+
+next we require a small spftware in which we can edit the video.
+
+For which we will require a software in ImageMagick so just open your chrome browser and serach for ImageMagick website 
+and go to the download session and downalod anf install it.
+
+In the installation process click on the adminstrator button and install it then click on next in 
+the adiitional task it should have selected a install legal utilities and then ckick on install 
