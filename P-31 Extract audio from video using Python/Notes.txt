@@ -1,0 +1,7 @@
+In this project we will see how we can extract and assign audio clips in a video 
+using python.
+
+In this project we require a module called moviepy so open your command prompt 
+and write the follwoing command : pip install moviepy
+
+Add your video in the same directory where you have save your coding file
