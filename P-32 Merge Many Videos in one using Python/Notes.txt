@@ -1,0 +1,9 @@
+In this Project we will see how we can merge two or more files and make it into one file 
+Now we have two files in it like in one frame we have two - three video frames and second we can do it
+aftre the first video is completed the second video starts playing after second video is over , third starts
+playing and so on...
+
+For this we require module called moviepy for which just open your command prompt and then write the follwing command
+Synatx : pip install moviepy
+
+keep the two videos inthe same directory where you have saved your python code.
