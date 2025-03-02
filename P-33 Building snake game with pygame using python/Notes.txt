@@ -1,0 +1,6 @@
+In this project we will building snake game using python.
+
+In this we require some module to be installed in our system like pygame
+for which just open your command prompt and travesre onto the same directory where you have saved your 
+code file and write following line 
+synatx : pip install pygame 
