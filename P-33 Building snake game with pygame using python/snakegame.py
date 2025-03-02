@@ -10,6 +10,7 @@ red = (255,0,0)
 blue = (51,15,255)
 grey = (192,192,192)
 green = (51,102,0)
+yellow = (0,255,255)
 
 #display define
 win_width = 600
@@ -29,8 +30,10 @@ def user_score(score):
     number = score_font.render("Score :" ,score,True,red)
     window.blit(number,[0,0])
 
-def game_snake():
-    pass
+def game_snake(snake,snake_length_list):
+    for x in snake_length_list:
+        pygame.draw.rect(window,green,[x[0],x[1],snake,snake])
+    
 
 def message(msg):
     msg = font_style.render(msg,True,red)
@@ -83,8 +86,25 @@ def game_loop():
                     x1_change = 0
                     y1_change = snake
 
-                
+        if x1>win_width or x1<0 or y1>win_height or y1<0:
+            gameOver = True
 
+        x1+= x1_change
+        y1+= y1_change
+        window.fill(grey)
+        pygame.draw.rect(window,yellow,[foodx,foody,snake,snake])
+        snake_size = []
+        snake_size.append(x1)
+        snake_size.append(y1)
+        snake_length_list.append(snake_size)
+        if len(snake_size) > snake_length:
+            del snake_length_list[0]
+
+        game_snake(snake,snake_length_list)
+        user_score(snake_length-1)
+
+        pygame.display.update()
+        
 
 # fonts = pygame.font.get_fonts()
 # print(fonts)
