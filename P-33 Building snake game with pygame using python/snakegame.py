@@ -68,7 +68,23 @@ def game_loop():
                         game_loop()
 
         for event in pygame.event.get():
-            if(event.type == pygame.KEYDOWN):
+            if event.type == pygame.KEYDOWN:
+                if event.key == K_LEFT:
+                    x1_change = -snake
+                    y1_change = 0
+
+                if event.key == K_RIGHT:
+                    x1_change = snake
+                    y1_change = 0
+                if event.key == K_UP:
+                    x1_change = 0
+                    y1_change = -snake
+                if event.key == K_DOWN:
+                    x1_change = 0
+                    y1_change = snake
+
+                
+
 
 # fonts = pygame.font.get_fonts()
 # print(fonts)
