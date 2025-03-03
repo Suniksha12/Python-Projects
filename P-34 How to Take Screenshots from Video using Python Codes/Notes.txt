@@ -1,0 +1,9 @@
+In this project we will be dicussing on two topics first is saving a frame of video cLip using Python and 
+second is the how to add margin to video file clip using Python.
+
+Firstly how to take screen shots from a video so you need a module named moviepy
+
+for which first open command prompt in the same directory where you have saved your python file and then just
+write the command - pip install moviepy
+
+Also keep the video in the same directory where you have saved your python file.
