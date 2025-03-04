@@ -1,0 +1,5 @@
+In this project we will understand how can rotate any pdf files, so in the directory
+take any pdf files and keep in the same directory where you have saved your python coing file.
+
+for  this we require a module to be installed in our system so open command prompt and 
+write the code : pip install pikepdf
