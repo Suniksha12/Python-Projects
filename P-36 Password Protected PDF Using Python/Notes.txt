@@ -1,0 +1,8 @@
+In this project we will see how we can encrypt pdf as password procted using python.
+
+for this we require a pdf in the same the directiry where yiu have saved your python coding file.
+
+Also we require a pikepdf module to be installed in your system for which first open your command prompt
+int the same directory where you have saved your python file and write the follwoing command :-
+
+pip install pikepdf
