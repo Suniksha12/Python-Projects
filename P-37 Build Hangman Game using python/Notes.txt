@@ -1,0 +1,2 @@
+IN this project we will be building hangman project using python like we will have a word 
+and we need to guess a letter out of which we have 6-7 words and guess the letter.
