@@ -1,7 +1,11 @@
 import random
 
-words = ["UMBRELLA", "COMPUTER","TELESCOPE","SMARTPHONE"]
+# words = ["UMBRELLA", "COMPUTER","TELESCOPE","SMARTPHONE"]
+f = open("words.txt","r")
+data = f.readline()
+words = data.split()
 word = random.choice(words)
+word = word.upper()
 
 total_chances = 7
 
