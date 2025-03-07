@@ -1,0 +1,9 @@
+ In this project we will understand that whatever pdf we are provided with many pages and if we want every page to be converted into a pdf
+then we can do using python.
+
+In this project we need a module named pikepdf 
+
+for this keep the pdf on the same directory where you save your python coding file 
+
+Also open the command prompt right click on it and then write the following lines:
+pip install pikepdf
