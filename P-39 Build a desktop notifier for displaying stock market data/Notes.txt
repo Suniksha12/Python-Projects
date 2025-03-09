@@ -1,0 +1,2 @@
+In this project we will understand how we build a destop notifier thing.
+
