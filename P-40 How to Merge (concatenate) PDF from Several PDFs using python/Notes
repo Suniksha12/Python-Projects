@@ -2,3 +2,5 @@ In this project we will understand how we can merge multiple pdf into a single p
 
 for which we require multiple pdfs to be in the same directory where you have saved your python coding file.
 
+In this project we require a module called pikepdf for which open the command prompt and write the following command :-
+pip install pikepdf
