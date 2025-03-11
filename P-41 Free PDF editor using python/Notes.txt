@@ -1,0 +1,8 @@
+In this project we will see like suppose we have a pdf file with us then how we can how can
+delete any page in that pdf , or if we want to have a reversed page then how we can do that or , 
+if we want to have make the copy of single page.
+
+Now for this open command prompt in the same directory where you have saved your python coding file.
+and write your follwoing command : pip install pikepdf
+
+
