@@ -5,4 +5,4 @@ if we want to have make the copy of single page.
 Now for this open command prompt in the same directory where you have saved your python coding file.
 and write your follwoing command : pip install pikepdf
 
-
+Add the pdf in the sam directory where you have saved your .py file.
