@@ -5,3 +5,5 @@ images for which we will built a python code.
 for this we require a module called pikepdf and for this open the command prompt
 in the same directory where you have saved your .py file and then write the following
 command : pip install pikepdf
+
+Also keep the pdf in the smae directory where you have saved your .py file.
