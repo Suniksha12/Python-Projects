@@ -1,0 +1,7 @@
+In this project we will see  how we can extract images from a pdf in a pdf
+we have text as well as images so when you select the text you can only text and cannot select
+images for which we will built a python code.
+
+for this we require a module called pikepdf and for this open the command prompt
+in the same directory where you have saved your .py file and then write the following
+command : pip install pikepdf
