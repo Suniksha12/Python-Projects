@@ -7,4 +7,4 @@ old_pdf = convert_from_path(r"C:\Users\sunik\OneDrive\Desktop\Python Projects\P-
 
 #couting the pages
 for i in range(len(old_pdf)):
-    old_pdf[i]
+    old_pdf[i].save("new" + str(i)+".jpg","JPEG")
