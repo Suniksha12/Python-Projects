@@ -1,0 +1,16 @@
+In this project we will see suppose we have a pdf with us then how we can convert that pdf into
+image format for every page that is present in pdf will be converted to image.
+
+for this we require a module called pdf2image for which open your command prompt in the same directory 
+where you have saved your .py file or going to save it and write the follwing command.
+Syntax: pip install pdf2image
+
+We also need an extra module to be downloaded and added for which we require to search pdf2image in our chrome
+browser and for which we go to the link provided : https://pypi.org/project/pdf2image/
+
+then scroll down the page see for poppler installtaion check according to your system.
+
+Since i have windows so i will go to the first blue link provided and then it will open up an github page 
+for which you can see that some realease versions are available out of which just download the realease
+zip file and save the file in the same directory where you have saved you .py file. Extract that file
+and keep it in the directory see the folder should be named a poppler.
