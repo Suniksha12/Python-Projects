@@ -37,7 +37,7 @@ roll_button = Button(window, text="Roll!",
 					font=15, bg="aqua", 
 					bd=2, command=roll_dices) 
 # Setting the position of the button 
-# roll_button.pack(padx=10, pady=15) 
+roll_button.pack(padx=10, pady=15) 
 
 # # Adding Label 
 # label = Label(window, font=("times", 250), 
