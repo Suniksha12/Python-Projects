@@ -39,8 +39,8 @@ roll_button = Button(window, text="Roll!",
 # Setting the position of the button 
 roll_button.pack(padx=10, pady=15) 
 
-# # Adding Label 
-# label = Label(window, font=("times", 250), 
-# 			bg="black", fg="yellow") 
+# Adding Label 
+label = Label(window, font=("times", 250), 
+			bg="black", fg="yellow") 
 
 window.mainloop() 
