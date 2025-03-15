@@ -31,12 +31,12 @@ def roll_dices():
 	label.pack() 
 
 
-# # Adding button to roll the dices 
-# roll_button = Button(window, text="Roll!", 
-# 					width=10, height=2, 
-# 					font=15, bg="aqua", 
-# 					bd=2, command=roll_dices) 
-# # Setting the position of the button 
+# Adding button to roll the dices 
+roll_button = Button(window, text="Roll!", 
+					width=10, height=2, 
+					font=15, bg="aqua", 
+					bd=2, command=roll_dices) 
+# Setting the position of the button 
 # roll_button.pack(padx=10, pady=15) 
 
 # # Adding Label 
