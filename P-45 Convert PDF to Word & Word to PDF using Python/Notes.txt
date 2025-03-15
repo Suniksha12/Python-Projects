@@ -5,6 +5,8 @@ For this we reuiqre a module called pdf2docx and then try to install in your sys
 first open the command prompt in the smae directory where you aill save your .py file
 and then write the follwoing synatx : pip install pdf2docx
 
-similary if we want to convert doc to pdf we require amodule called docx2pdf for which install it in 
+Similary if we want to convert doc to pdf we require amodule called docx2pdf for which install it in 
 your system with the same functionality, open your command prpmpt and write the follwing synax :
 pip install docx2pdf
+
+keep the pdf file in the same directory where you will save your .py file.
