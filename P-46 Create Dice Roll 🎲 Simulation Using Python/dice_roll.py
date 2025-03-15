@@ -45,3 +45,5 @@ label = Label(window, font=("times", 250),
 
 #main loop
 window.mainloop()
+
+#sucessfully running
