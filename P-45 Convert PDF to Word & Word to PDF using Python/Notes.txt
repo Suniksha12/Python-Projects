@@ -1,0 +1,10 @@
+In this project we will see that suppose we have a pdf and how to convert it into a word file
+and similarly word to pdf conversion can also be done .
+
+For this we reuiqre a module called pdf2docx and then try to install in your systme for you need to 
+first open the command prompt in the smae directory where you aill save your .py file
+and then write the follwoing synatx : pip install pdf2docx
+
+similary if we want to convert doc to pdf we require amodule called docx2pdf for which install it in 
+your system with the same functionality, open your command prpmpt and write the follwing synax :
+pip install docx2pdf
