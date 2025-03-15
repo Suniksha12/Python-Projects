@@ -1,0 +1,8 @@
+In this project we will see how we can create a dice roll stimulation like evryone in our childhood we have dice roll for offline games right ??
+then you have also seen dice roll in online games also , so we will use python for building this.
+
+Now this can be built using python GUI a desktop application for which we reuiqre Tkinter module and along with this
+we require a pillow module.
+
+For this we need to install the modules so open command prompt in the same directory where you will save your .py file and just write 
+the following lines Syntax: pip install pillow , for tkinter its preinstalled with python library so no need to install again.
