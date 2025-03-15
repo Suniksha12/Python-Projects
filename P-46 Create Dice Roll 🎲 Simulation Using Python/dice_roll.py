@@ -43,4 +43,5 @@ roll_button.pack(padx=10, pady=15)
 label = Label(window, font=("times", 250), 
 			bg="black", fg="yellow") 
 
-window.mainloop() 
+#main loop
+window.mainloop()
