@@ -1,2 +1,5 @@
 In this project we will build a Robo speaker basically this project is all about when we type something and rest
 it will speak for us.
+
+For this we require a module called pyttsx3 for whihc you need to open your command prompt in the same directory where you have saved your .py file 
+and writ the follwonig line : pip install pyttsx3
