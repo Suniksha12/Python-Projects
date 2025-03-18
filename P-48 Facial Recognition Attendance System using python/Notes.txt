@@ -12,3 +12,5 @@ in the same directory where you will save .py file. and write the following comm
 Syntax : pip install face_recognition 
          pip install cmake
          pip install opencv-python
+
+Added images in the photos in the faces folder.
