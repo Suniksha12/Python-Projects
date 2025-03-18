@@ -52,6 +52,22 @@ while True:
         if(matches[best_match_index]):
             name = known_face_names[best_match_index]
 
+        #Add the text if a person is present
+        if  name in known_face_names:
+            font = cv2.FONT_HERSHEY_SIMPLEX
+            bottomLeftCornerOfText = (10,100)
+            fontScale = 1.5
+            fontColor = (255, 0 , 0)
+            thickness = 3
+            lineType = 2
+            cv2.putText(frame, name+ "Present", bottomLeftCornerOfText, fontScale,
+                        font, fontColor, thickness, lineType)
+            
+            if name in students:
+                students.remove(name)
+                current_time = now.strftime("%H-%M%S")
+                lnwriter.writerow([name])
+
     cv2.imshow("Attendance", frame)
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
