@@ -1,0 +1,14 @@
+In this project we will build a facial recognition with attendance system .
+
+For which we need to first install VIsual studio community cause we will require build tools 
+in it, just serach it and download it.
+
+So when its fully downloaded just install it in the process you will get a page where you will find different packages
+in the above go to the workloads and install development with C++ just click on the check box wait for sometime
+it will take 10 min to get installed and complete the process.
+
+In the VS code we also require some modules to be instlled in our system for which just open command prompt 
+in the same directory where you will save .py file. and write the following command 
+Syntax : pip install face_recognition 
+         pip install cmake
+         pip install opencv-python
