@@ -1,0 +1,4 @@
+In this project we will see how we work on this rock paper scissor project.
+Now, obviously you guys know how this this works what we are going to do here is that the computer keeps
+track of how many times the user gets it Correct Verses how many times the computer gets it correct.
+It means Whoever wins a rock paper scissors.
