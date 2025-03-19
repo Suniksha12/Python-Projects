@@ -21,5 +21,14 @@ while True:
     if user_input == "rock" and computer_pick == "scissors":
         print("You Win!")
         user_wins += 1
+    elif user_input == "paper" and computer_pick == "rock":
+        print("You Win!")
+        user_wins += 1
+    elif user_input == "scissors" and computer_pick == "paper":
+        print("You Win!")
+        user_wins += 1
+    else:
+        print("You Lost!")
+        computer_wins += 1
 
 print("Goodbye!")
