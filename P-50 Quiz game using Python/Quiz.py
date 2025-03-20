@@ -51,3 +51,20 @@ class QuizApp:
                 self.options[i].config(text=option, value=option)
         else:
             self.show_result()
+
+        
+    def check_answer(self):
+        if not self.selected_answer.get():
+            messagebox.showwarning("Warning", "Please select an answer!")
+            return
+        
+        if self.selected_answer.get() == questions[self.current_q]["answer"]:
+            self.score += 1
+        
+        self.current_q += 1
+        self.display_question()
+    
+    def show_result(self):
+        messagebox.showinfo("Quiz Over", f"Your Score: {self.score}/{len(questions)}")
+        self.submit_btn.config(state=tk.DISABLED)
+        self.restart_btn.config(state=tk.NORMAL)
