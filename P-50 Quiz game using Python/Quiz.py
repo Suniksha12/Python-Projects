@@ -26,3 +26,17 @@ class QuizApp:
         
         self.options = []
         self.selected_answer = tk.StringVar()
+
+        for i in range(4):
+            btn = tk.Radiobutton(root, text="", variable=self.selected_answer, value="", font=("Arial", 12))
+            btn.pack(anchor="w", padx=50)
+            self.options.append(btn)
+        
+        self.submit_btn = tk.Button(root, text="Submit", command=self.check_answer, font=("Arial", 12), bg="blue", fg="white")
+        self.submit_btn.pack(pady=20)
+        
+        self.restart_btn = tk.Button(root, text="Restart Quiz", command=self.restart_quiz, font=("Arial", 12), bg="green", fg="white")
+        self.restart_btn.pack(pady=10)
+        self.restart_btn.config(state=tk.DISABLED)
+        
+        self.display_question()
