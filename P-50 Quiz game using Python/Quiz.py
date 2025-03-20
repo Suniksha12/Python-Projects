@@ -10,3 +10,19 @@ questions = [
     {"question": "Which is the largest planet in our solar system?", "options": ["Earth", "Mars", "Jupiter", "Venus"], "answer": "Jupiter"},
     {"question": "What is the chemical symbol for water?", "options": ["O2", "H2O", "CO2", "NaCl"], "answer": "H2O"},
 ]
+
+class QuizApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("General Knowledge Quiz")
+        self.root.geometry("500x400")
+        
+        self.score = 0
+        self.current_q = 0
+        random.shuffle(questions)  # Shuffle questions for randomness
+        
+        self.question_label = tk.Label(root, text="", wraplength=400, font=("Arial", 14))
+        self.question_label.pack(pady=20)
+        
+        self.options = []
+        self.selected_answer = tk.StringVar()
