@@ -1,0 +1,4 @@
+In this project we will see how to build a quiz game for which it will ask the end user a bunch of questions and we need to qrite answers 
+and we need to add one to thier score at the end of the program they will get their score.
+
+for this we require tkinter module.
