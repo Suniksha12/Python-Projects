@@ -40,3 +40,14 @@ class QuizApp:
         self.restart_btn.config(state=tk.DISABLED)
         
         self.display_question()
+
+    def display_question(self):
+        if self.current_q < len(questions):
+            q_data = questions[self.current_q]
+            self.question_label.config(text=q_data["question"])
+            
+            self.selected_answer.set("")  # Reset selected answer
+            for i, option in enumerate(q_data["options"]):
+                self.options[i].config(text=option, value=option)
+        else:
+            self.show_result()
