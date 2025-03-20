@@ -68,3 +68,16 @@ class QuizApp:
         messagebox.showinfo("Quiz Over", f"Your Score: {self.score}/{len(questions)}")
         self.submit_btn.config(state=tk.DISABLED)
         self.restart_btn.config(state=tk.NORMAL)
+
+    def restart_quiz(self):
+        self.score = 0
+        self.current_q = 0
+        random.shuffle(questions)
+        self.submit_btn.config(state=tk.NORMAL)
+        self.restart_btn.config(state=tk.DISABLED)
+        self.display_question()
+
+# Run the quiz
+tk_root = tk.Tk()
+quiz = QuizApp(tk_root)
+tk_root.mainloop()
